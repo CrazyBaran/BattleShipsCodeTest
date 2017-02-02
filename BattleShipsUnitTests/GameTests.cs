@@ -22,9 +22,11 @@ namespace BattleShipsUnitTests
 		[Test]
 		public void WhenShootingAtShipItsAHit()
 		{
+			var ship = new Ship { Length = 3 };
 			var board = new Dictionary<string, Ship>()
 			{
-				{"a1", new Ship { Length = 3}}
+				{"a1", ship},
+				{"a2", ship}
 			};
 			var subject = new Game(board);
 
