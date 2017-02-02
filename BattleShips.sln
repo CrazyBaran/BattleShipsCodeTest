@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips", "BattleShips\BattleShips.csproj", "{7E3E8A5A-68EE-4A03-BB1A-28AAB7F5FD63}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipsUnitTests", "BattleShipsUnitTests\BattleShipsUnitTests.csproj", "{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -13,5 +15,9 @@ Global
 		{7E3E8A5A-68EE-4A03-BB1A-28AAB7F5FD63}.Debug|x86.Build.0 = Debug|x86
 		{7E3E8A5A-68EE-4A03-BB1A-28AAB7F5FD63}.Release|x86.ActiveCfg = Release|x86
 		{7E3E8A5A-68EE-4A03-BB1A-28AAB7F5FD63}.Release|x86.Build.0 = Release|x86
+		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Debug|x86.Build.0 = Debug|Any CPU
+		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Release|x86.ActiveCfg = Release|Any CPU
+		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
