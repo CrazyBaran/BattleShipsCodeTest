@@ -36,6 +36,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Models\Ship.cs" />
+    <Compile Include="BoardFactory.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
