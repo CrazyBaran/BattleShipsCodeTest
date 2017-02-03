@@ -3,10 +3,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}</ProjectGuid>
+    <ProjectGuid>{26EDE247-BD1A-48E4-AC2C-A72414828635}</ProjectGuid>
     <OutputType>Library</OutputType>
-    <RootNamespace>BattleShipsUnitTests</RootNamespace>
-    <AssemblyName>BattleShipsUnitTests</AssemblyName>
+    <RootNamespace>BattleShipsAcceptanceTests</RootNamespace>
+    <AssemblyName>BattleShipsAcceptanceTests</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -29,17 +29,12 @@
     <Reference Include="nunit.framework">
       <HintPath>..\packages\NUnit.2.6.4\lib\nunit.framework.dll</HintPath>
     </Reference>
-    <Reference Include="Shouldly">
-      <HintPath>..\packages\Shouldly.2.8.2\lib\net40\Shouldly.dll</HintPath>
-    </Reference>
     <Reference Include="NSubstitute">
       <HintPath>..\packages\NSubstitute.1.10.0.0\lib\net45\NSubstitute.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="GameTests.cs" />
-    <Compile Include="BoardFactoryTests.cs" />
-    <Compile Include="ConsoleUITests.cs" />
+    <Compile Include="Test.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

@@ -9,13 +9,9 @@ namespace BattleShips
 		{
 			var board = new BoardFactory().BuildBoard(new List<Ship> { new Ship { Length = 5 }, new Ship { Length = 4 }, new Ship { Length = 4 } });
 			var game = new Game(board);
+			var consoleUI = new ConsoleUI(game, new ConsoleWrapper());
 
-			var lastResult = string.Empty;
-			while (lastResult != "end")
-			{
-				lastResult = game.Shoot(Console.ReadLine());
-				Console.WriteLine($">>{lastResult}");
-			}
+			consoleUI.Play();
 		}
 	}
 }

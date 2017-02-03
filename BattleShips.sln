@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShips", "BattleShips\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipsUnitTests", "BattleShipsUnitTests\BattleShipsUnitTests.csproj", "{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BattleShipsAcceptanceTests", "BattleShipsAcceptanceTests\BattleShipsAcceptanceTests.csproj", "{26EDE247-BD1A-48E4-AC2C-A72414828635}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x86 = Debug|x86
@@ -19,5 +21,9 @@ Global
 		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Debug|x86.Build.0 = Debug|Any CPU
 		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Release|x86.ActiveCfg = Release|Any CPU
 		{7B90A9E1-9EA4-4E7A-B407-AA3FCD6FB559}.Release|x86.Build.0 = Release|Any CPU
+		{26EDE247-BD1A-48E4-AC2C-A72414828635}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{26EDE247-BD1A-48E4-AC2C-A72414828635}.Debug|x86.Build.0 = Debug|Any CPU
+		{26EDE247-BD1A-48E4-AC2C-A72414828635}.Release|x86.ActiveCfg = Release|Any CPU
+		{26EDE247-BD1A-48E4-AC2C-A72414828635}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

@@ -37,9 +37,12 @@
     <Compile Include="Game.cs" />
     <Compile Include="Models\Ship.cs" />
     <Compile Include="BoardFactory.cs" />
+    <Compile Include="ConsoleUI.cs" />
+    <Compile Include="Wrapper\ConsoleWrapper.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\" />
+    <Folder Include="Wrapper\" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
 </Project>
